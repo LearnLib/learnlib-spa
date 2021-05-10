@@ -1,5 +1,8 @@
 # SPA tool page
 
+
+**This tool will be/is included in LearnLib v0.17**
+
 ## Overview
 
 This tool introduces the concept of *Systems of Procedural Automata* (SPAs), an extension to DFAs to systems of DFAs that can mutually call each other.
