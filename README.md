@@ -21,8 +21,8 @@ Indeed, it also enables VPA learning to cover all context-free languages.
 In order to illustrate the difference between SPA learning and VPA learning after instrumentation, please consider the following grammar for palindromes (which we also briefly discuss in the paper):
 
 ```
-S -> a | a S a | b | b S b | T | ε
-T -> c | c T c | S
+F -> a | a F a | b | b F b | G | ε
+G -> c | c G c | F
 ```
 
 <p align="center">
